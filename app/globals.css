@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.animate {
+  @apply duration-300 transition-all;
+}
+
+.bg-hero-nav {
+  background-image: url("../public/images/download.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.zig {
+  background-image: url("../public/images/zig.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input[type='checkbox'] {
+  accent-color: #ea580c;
+}
